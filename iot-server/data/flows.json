@@ -146,7 +146,7 @@
         "correl": "",
         "expiry": "",
         "broker": "f0b76a39d90ccce8",
-        "x": 410,
+        "x": 430,
         "y": 180,
         "wires": []
     },
@@ -169,8 +169,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "true",
-        "payloadType": "bool",
+        "payload": "1",
+        "payloadType": "str",
         "x": 170,
         "y": 140,
         "wires": [
@@ -214,8 +214,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "false",
-        "payloadType": "bool",
+        "payload": "0",
+        "payloadType": "str",
         "x": 170,
         "y": 220,
         "wires": [

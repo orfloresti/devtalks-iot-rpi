@@ -10,7 +10,15 @@
     {
         "id": "f7dccb1f68188280",
         "type": "tab",
-        "label": "Logic",
+        "label": "Device logic",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "a8417347f132c4e4",
+        "type": "tab",
+        "label": "Fundamentals",
         "disabled": false,
         "info": "",
         "env": []
@@ -161,8 +169,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "true",
-        "payloadType": "bool",
+        "payload": "1",
+        "payloadType": "str",
         "x": 170,
         "y": 140,
         "wires": [
@@ -206,8 +214,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "false",
-        "payloadType": "bool",
+        "payload": "0",
+        "payloadType": "str",
         "x": 170,
         "y": 220,
         "wires": [
